@@ -3,13 +3,14 @@ import './Home.css';
 import Instagram from '../../Assets/Instagram.png';
 import Twitter from '../../Assets/Twitter.png';
 import Facebook from '../../Assets/Facebook.png';
+import Headphone from '../../Assets/Headphone.png'
 
 const Home = () => {
     return (
         <div>
             <div className="container backg">
                 <div className="row">
-                    <div className="col-md-12">
+                    <div className="col-md-5">
                         <div className="titles">
                             <h1 className="htxt">GET LOST</h1>
                             <h3 className="sbtxt">IN THE <k>MUSIC</k></h3>
@@ -17,6 +18,9 @@ const Home = () => {
                             <p className="txtextra">More Music, Less Noise <br /> Experience Premium Sound <br />Available in Different Colours</p>
                             <h2 className="price">$349.94</h2>
                         </div>
+                    </div>
+                    <div className="col-md-7">
+                        <img className="hphone" src={Headphone} />
                     </div>
                 </div>
                 <div className="row mt-4 scolom">

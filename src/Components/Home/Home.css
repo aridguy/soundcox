@@ -83,3 +83,10 @@ k {
     background-image: linear-gradient(90deg, #14a4f5, #14a4f5, #14a4f5, #14a4f5, #14a4f5, #14a4f5, #14a4f5, #14a4f5, #14a4f5,#14a4f5,#14a4f5,#14a4f5,#14a4f5,#14a4f5 ,#14a4f5,#14a4f5,#14a4f5, #0b5d8b, #0b5d8b,#0b5d8b,#0b5d8b,#0b5d8b,#0b5d8b,#0b5d8b,#0b5d8b,#0b5d8b)
 
 }
+
+.hphone {
+    width: 55em;
+    position: absolute;
+    right: 15em;
+    bottom: -3em;
+}
