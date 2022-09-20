@@ -1,0 +1,14 @@
+ul{
+    list-style: none;
+    display: flex;
+    position: relative;
+    margin-left: 8em;
+    
+}
+
+li{
+    padding: 40px;
+    font-size: 1.5em;
+    color: white;
+    cursor: pointer;    
+}

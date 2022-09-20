@@ -1,0 +1,85 @@
+body {
+    background: linear-gradient(to right,
+            #0ac1da,
+            #03117a,
+            #1c1ca8,
+            #0ac6cc,
+            #1347f3af,
+            #042658);
+    background-size: 400% 400%;
+    animation: body 10s infinite ease-in-out;
+}
+
+@keyframes body {
+    0% {
+        background-position: 0 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0 50%;
+    }
+}
+
+.htxt {
+    color: white;
+    font-family: poppins;
+    font-size: 90px;
+}
+
+.sbtxt {
+    color: white;
+    font-family: poppins;
+    font-size: 45px;
+}
+
+k {
+    color: #14A4F5;
+}
+
+.titles {
+    margin-left: 4em;
+}
+
+.stxt {
+    color: white;
+    font-size: 35px;
+    position: relative;
+    bottom: 20px;
+}
+
+.txtextra {
+    bottom: 40px;
+    color: white;
+    font-size: 21px;
+}
+
+.price {
+    color: white;
+    font-size: 42px;
+    position: relative;
+    bottom: 13pxpx;
+    font-weight: 700;
+}
+
+.scolom {
+    position: relative;
+    left: 4em;
+}
+
+.botin {
+    width: 230px;
+    height: 60px;
+    outline: none;
+    border: none;
+    background: #14A4F5;
+    color: white;
+    font-family: 'Poppins';
+    font-size: 20px;
+    border-radius: 36px;
+    background-image: linear-gradient(90deg, #14a4f5, #14a4f5, #14a4f5, #14a4f5, #14a4f5, #14a4f5, #14a4f5, #14a4f5, #14a4f5,#14a4f5,#14a4f5,#14a4f5,#14a4f5,#14a4f5 ,#14a4f5,#14a4f5,#14a4f5, #0b5d8b, #0b5d8b,#0b5d8b,#0b5d8b,#0b5d8b,#0b5d8b,#0b5d8b,#0b5d8b,#0b5d8b)
+
+}
