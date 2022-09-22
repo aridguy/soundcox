@@ -90,3 +90,35 @@ k {
     right: 15em;
     bottom: -3em;
 }
+
+.extxt{
+    position: relative;
+    bottom: 12em;
+    left: 50px;
+}
+
+.new{
+    font-family: poppins;
+    font-size: 18px;
+}
+
+.percentage, .discount{
+    font-family: poppins;
+}
+.percentage{
+    font-size: 50px;
+    position: relative;
+    bottom: 18px;
+}
+.discount{
+    position: relative;
+    bottom: 22px;
+}
+
+.slant{
+    position: absolute;
+    bottom: -3em;
+    width: 40em;
+    right: 59em;
+    z-index: -11;
+}

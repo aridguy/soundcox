@@ -3,7 +3,9 @@ import './Home.css';
 import Instagram from '../../Assets/Instagram.png';
 import Twitter from '../../Assets/Twitter.png';
 import Facebook from '../../Assets/Facebook.png';
-import Headphone from '../../Assets/Headphone.png'
+import Headphone from '../../Assets/Headphone.png';
+import Rectangle from '../../Assets/Rectangle.png';
+import Slant from '../../Assets/Slant.png'
 
 const Home = () => {
     return (
@@ -19,10 +21,22 @@ const Home = () => {
                             <h2 className="price">$349.94</h2>
                         </div>
                     </div>
-                    <div className="col-md-7">
+                    <div className="col-md-5">
                         <img className="hphone" src={Headphone} />
                     </div>
+                    <div className="col-md-2">
+                        <div className="wrap-last">
+                            <img width="230px" src={Rectangle} />
+                            <div className="extxt">
+                                <p className="new text-white">New Arrivlas</p>
+                                <h2 className="percentage text-white">10%</h2>
+                                <p className="discount text-white">Discount</p>
+                            </div>
+                        </div>
+
+                    </div>
                 </div>
+                <img className="slant" src={Slant} />
                 <div className="row mt-4 scolom">
                     <div className="col-md-12">
                         <div className="btn-down">
