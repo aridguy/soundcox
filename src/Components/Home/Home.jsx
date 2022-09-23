@@ -5,11 +5,21 @@ import Twitter from '../../Assets/Twitter.png';
 import Facebook from '../../Assets/Facebook.png';
 import Headphone from '../../Assets/Headphone.png';
 import Rectangle from '../../Assets/Rectangle.png';
-import Slant from '../../Assets/Slant.png'
+import Slant from '../../Assets/Slant.png';
+import Lady from '../../Assets/lady.png';
+// import Box from '@mui/material/Box';
+// import Button from '@mui/material/Button';
+// import Typography from '@mui/material/Typography';
+// import Modal from '@mui/material/Modal';
+
+
 
 const Home = () => {
+   
+    
     return (
         <div>
+            
             <div className="container backg">
                 <div className="row">
                     <div className="col-md-5">
@@ -22,11 +32,11 @@ const Home = () => {
                         </div>
                     </div>
                     <div className="col-md-5">
-                        <img className="hphone" src={Headphone} />
+                        <img className="hphone" src={Headphone} alt="headphone" />
                     </div>
                     <div className="col-md-2">
                         <div className="wrap-last">
-                            <img width="230px" src={Rectangle} />
+                            <img width="230px" src={Rectangle} alt="rectangle" />
                             <div className="extxt">
                                 <p className="new text-white">New Arrivlas</p>
                                 <h2 className="percentage text-white">10%</h2>
@@ -36,15 +46,22 @@ const Home = () => {
 
                     </div>
                 </div>
-                <img className="slant" src={Slant} />
+                <img className="slant" src={Slant} alt="slant" />
                 <div className="row mt-4 scolom">
-                    <div className="col-md-12">
+                    <div className="col-md-5">
                         <div className="btn-down">
                             <button className="botin">BUY NOW &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;<i className="fa fa-arrow-right"></i></button>
                         </div>
                         <div className="socials mt-5">
-                            <img width="40px" src={Instagram} /> <img width="40px" src={Twitter} /> <img width="40px" src={Facebook} />
+                            <img width="40px" src={Instagram} alt="instagram" />
+                            <img width="40px" src={Twitter} alt="twitter" />
+                            <img width="40px" src={Facebook} alt="facebook" />
                         </div>
+                    </div>
+                    <div className="col-md-7">
+                        <div className="transback"></div>
+                        <img className="lady" src={Lady} alt="ladys" />
+
                     </div>
                 </div>
             </div>

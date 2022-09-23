@@ -122,3 +122,23 @@ k {
     right: 59em;
     z-index: -11;
 }
+
+.lady{
+    width: 500px;
+    position: absolute;
+    bottom: -126px;
+    right: -66px;
+}
+
+.transback{
+    background-color: #03117a8f;
+    position: absolute;
+    bottom: -126px;
+    right: -66px;
+    width: 500px;
+    height: 500px;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+    z-index: 99;
+}
