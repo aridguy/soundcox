@@ -5,7 +5,6 @@ import Menu from '../../Assets/Menu.png';
 import Search from '../../Assets/Search.png';
 
 import Box from '@mui/material/Box';
-import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
 import Modal from '@mui/material/Modal';
 
@@ -48,13 +47,13 @@ const Nav = () => {
 
             <nav className="nav navbar-light">
                 <ul>
-                    <li><img width="32px" src={Menu} /></li>
+                    <li><img width="32px" src={Menu} alt="menus"/></li>
                     <li>HOME</li>
                     <li>HEADPHONES</li>
                     <li>ABOUT US</li>
                     <li>CONTACT US</li>
-                    <li><img onClick={handleOpen} width="32px" src={Search} /></li>
-                    <li><img width="32px" src={Cart} /></li>
+                    <li><img onClick={handleOpen} width="32px" src={Search} alt="search" /></li>
+                    <li><img width="32px" src={Cart} alt="cartss" /></li>
                   
                 </ul>
 

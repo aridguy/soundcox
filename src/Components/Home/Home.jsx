@@ -7,12 +7,6 @@ import Headphone from '../../Assets/Headphone.png';
 import Rectangle from '../../Assets/Rectangle.png';
 import Slant from '../../Assets/Slant.png';
 import Lady from '../../Assets/lady.png';
-// import Box from '@mui/material/Box';
-// import Button from '@mui/material/Button';
-// import Typography from '@mui/material/Typography';
-// import Modal from '@mui/material/Modal';
-
-
 
 const Home = () => {
    
