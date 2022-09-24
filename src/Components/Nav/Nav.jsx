@@ -17,12 +17,11 @@ const Nav = () => {
     const handleClose = () => setOpen(false);
       const style = {
           position: 'absolute',
-          top: '30%',
+          top: '25%',
           left: '70%',
           transform: 'translate(-50%, -50%)',
           width: 700,
           bgcolor: 'background.paper',
-          border: '2px solid #000',
           boxShadow: 24,
           p: 4,
         };
